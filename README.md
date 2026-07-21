@@ -19,5 +19,5 @@ All work is done in **MySQL Workbench** on port **3307**.
 
 ## Author
 - Name: Shuaib Darries
-- Date: 2026-07-21
+- Date: 2026-07-18
 - Course: LCA MySQL Module — Week 1
