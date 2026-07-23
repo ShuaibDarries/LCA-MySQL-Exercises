@@ -11,7 +11,7 @@ This repository contains weekly MySQL exercise submissions for the EduTrack SA p
 | Week / Exercise | Branch | Topic |
 |---|---|---|
 | Week 1, Exercise 01 | `week1-mysql-ex-01` | Database Design & Normalisation — Creating the `edutrack_sa` database, designing four normalised tables (`facilitators`, `courses`, `trainees`, `enrolments`), applying constraints, inserting sample data, and writing verification queries. |
-| Week 1, Exercise 02 | `week1-mysql-ex-02` | *(To be added)* |
+| Week 1, Exercise 02 | `week1-mysql-ex-02` | This exercise builds on the EduTrack SA database from Exercise 01. It contains a series of SELECT queries that demonstrate sorting, filtering, wildcards, aggregate functions, and grouping in MySQL. |
 | Week 1, Exercise 03 | `week1-mysql-ex-03` | SQL Joins and Data Manipulation — Using `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`, `UPDATE`, `DELETE`, and combined aggregate queries (`GROUP BY`, `HAVING`, `ORDER BY`) to generate cross-table reports and apply data changes. |
 
 ## Technologies
