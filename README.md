@@ -1,24 +1,21 @@
-# EduTrack SA — Exercise 02: Querying, Sorting, and Filtering Data
+# LCA MySQL Exercises
 
-## Overview
-This exercise builds on the EduTrack SA database from Exercise 01. It contains a series of `SELECT` queries that demonstrate sorting, filtering, wildcards, aggregate functions, and grouping in MySQL.
+A collection of SQL exercises completed as part of the **Course 2 – Backend Web Development** curriculum. These exercises are designed to build practical skills in relational database design, normalisation, joins, and data manipulation using MySQL.
 
-## Database
-- **Database Name:** `edutrack_sa`
-- **Port:** `3307`
-- **Tool:** MySQL Workbench
+## Repository Overview
 
+This repository contains weekly MySQL exercise submissions for the EduTrack SA project — a South African online learning platform. Each exercise is stored on its own Git branch and covers progressively advanced database concepts, from schema design to complex multi-table queries and DML operations.
 
-## File Structure
+## Exercises
 
-```
-LCA-MySQL-Exercises/
-└── week1-mysql-ex-02/
-    ├── week1_mysql_exo2_ShuaibDarries.sql
-    └── README.md
-```
+| Week / Exercise | Branch | Topic |
+|---|---|---|
+| Week 1, Exercise 01 | `week1-mysql-ex-01` | Database Design & Normalisation — Creating the `edutrack_sa` database, designing four normalised tables (`facilitators`, `courses`, `trainees`, `enrolments`), applying constraints, inserting sample data, and writing verification queries. |
+| Week 1, Exercise 02 | `week1-mysql-ex-02` | This exercise builds on the EduTrack SA database from Exercise 01. It contains a series of SELECT queries that demonstrate sorting, filtering, wildcards, aggregate functions, and grouping in MySQL. |
+| Week 1, Exercise 03 | `week1-mysql-ex-03` | SQL Joins and Data Manipulation — Using `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`, `UPDATE`, `DELETE`, and combined aggregate queries (`GROUP BY`, `HAVING`, `ORDER BY`) to generate cross-table reports and apply data changes. |
 
-## Author
-- Name: Shuaib Darries
-- Date: 2026-07-21
-- Course: LCA MySQL Module — Week 1
+## Technologies
+
+- **MySQL** (via MySQL Workbench on port 3307)
+- **SQL** — Data Definition Language (DDL), Data Manipulation Language (DML), and Data Query Language (DQL)
+- **Git & GitHub** — Version control and submission workflow
