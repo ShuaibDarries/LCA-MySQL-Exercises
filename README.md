@@ -1,23 +1,21 @@
 # LCA MySQL Exercises
 
-## Description
-This repository contains my MySQL coursework for the LCA (Learn to Code Academy) database module. Each exercise builds on the previous one, starting with designing and creating a normalised relational database for EduTrack SA — a South African online learning platform — and progressing to writing queries for sorting, filtering, and aggregating data.
+A collection of SQL exercises completed as part of the **Course 2 – Backend Web Development** curriculum. These exercises are designed to build practical skills in relational database design, normalisation, joins, and data manipulation using MySQL.
 
-All work is done in **MySQL Workbench** on port **3307**.
+## Repository Overview
+
+This repository contains weekly MySQL exercise submissions for the EduTrack SA project — a South African online learning platform. Each exercise is stored on its own Git branch and covers progressively advanced database concepts, from schema design to complex multi-table queries and DML operations.
 
 ## Exercises
 
-| Exercise | Branch | Description |
-|----------|--------|-------------|
-| **Exercise 01** | `week1-mysql-ex-01` | Design and build the `edutrack_sa` database with four normalised tables: `facilitators`, `courses`, `trainees`, and `enrolments`. Includes `CREATE DATABASE`, `CREATE TABLE`, `INSERT INTO`, and verification `SELECT` statements. |
-| **Exercise 02** | `week1-mysql-ex-02` | Querying, Sorting, and Filtering Data. Write `SELECT` queries using `ORDER BY`, `LIMIT`, `LIKE`, `GROUP BY`, `HAVING`, and aggregate functions (`COUNT`, `AVG`, `SUM`, `MIN`, `MAX`). |
+| Week / Exercise | Branch | Topic |
+|---|---|---|
+| Week 1, Exercise 01 | `week1-mysql-ex-01` | Database Design & Normalisation — Creating the `edutrack_sa` database, designing four normalised tables (`facilitators`, `courses`, `trainees`, `enrolments`), applying constraints, inserting sample data, and writing verification queries. |
+| Week 1, Exercise 02 | `week1-mysql-ex-02` | This exercise builds on the EduTrack SA database from Exercise 01. It contains a series of SELECT queries that demonstrate sorting, filtering, wildcards, aggregate functions, and grouping in MySQL. |
+| Week 1, Exercise 03 | `week1-mysql-ex-03` | SQL Joins and Data Manipulation — Using `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`, `UPDATE`, `DELETE`, and combined aggregate queries (`GROUP BY`, `HAVING`, `ORDER BY`) to generate cross-table reports and apply data changes. |
 
-## Database
-- **Database Name:** `edutrack_sa`
-- **Tables:** `facilitators`, `courses`, `trainees`, `enrolments`
-- **Normalisation:** All tables are normalised to Third Normal Form (3NF)
+## Technologies
 
-## Author
-- Name: Shuaib Darries
-- Date: 2026-07-18
-- Course: LCA MySQL Module — Week 1
+- **MySQL** (via MySQL Workbench on port 3307)
+- **SQL** — Data Definition Language (DDL), Data Manipulation Language (DML), and Data Query Language (DQL)
+- **Git & GitHub** — Version control and submission workflow
